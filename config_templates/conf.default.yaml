@@ -422,7 +422,7 @@ character_config:
       base_url: 'http://localhost:8880/v1' # Base URL of the TTS server
       file_extension: 'mp3' # Audio file format ('mp3' or 'wav')
 
-    # For more details, see: https://platform.minimax.io/docs/api-reference/audio/text-to-audio
+    # For more details, see: https://platform.minimax.io/docs/api-reference/speech-t2a-http
     minimax_tts:
       group_id: '' # Your minimax group_id
       api_key: '' # Your minimax api_key
