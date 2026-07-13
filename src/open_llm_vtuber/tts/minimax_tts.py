@@ -9,7 +9,7 @@ class TTSEngine(TTSInterface):
         self,
         group_id: str,
         api_key: str,
-        model: str = "speech-02-turbo",
+        model: str = "speech-2.8-hd",
         voice_id: str = "male-qn-qingse",
         pronunciation_dict: str = "",
     ):

@@ -523,7 +523,7 @@ class MinimaxTTSConfig(I18nMixin):
 
     group_id: str = Field(..., alias="group_id")
     api_key: str = Field(..., alias="api_key")
-    model: str = Field("speech-02-turbo", alias="model")
+    model: str = Field("speech-2.8-hd", alias="model")
     voice_id: str = Field("male-qn-qingse", alias="voice_id")
     pronunciation_dict: str = Field("", alias="pronunciation_dict")
 
