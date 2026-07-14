@@ -426,7 +426,8 @@ character_config:
     minimax_tts:
       group_id: '' # Your minimax group_id
       api_key: '' # Your minimax api_key
-      # Supported models include 'speech-2.8-hd', 'speech-2.8-turbo', 'speech-02-hd', and 'speech-02-turbo' (recommended: 'speech-2.8-hd')
+      api_url: 'https://api.minimax.io/v1/t2a_v2' # Speech synthesis API endpoint
+      # Recommended model: 'speech-2.8-hd'. See the documentation above for all supported models.
       model: 'speech-2.8-hd' # minimax model name
       voice_id: 'female-shaonv' # minimax voice id, default is 'female-shaonv'
       # Custom pronunciation dictionary, default empty.
