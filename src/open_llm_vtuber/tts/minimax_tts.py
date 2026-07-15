@@ -74,6 +74,7 @@ class TTSEngine(TTSInterface):
                 stream=True,
                 headers=headers,
                 data=json.dumps(body),
+                timeout=120,
             )
             audio = b""
             for chunk in response.raw:
